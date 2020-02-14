@@ -519,6 +519,16 @@ textarea {
   max-width: 129px;
 }
 
+@media screen and (max-width: 540px) {
+  .c-hero {
+    font-size: 12px;
+    min-height: 70vh;
+  }
+  .c-hero__image {
+    width: 90%;
+  }
+}
+
 .c-air {
   position: relative;
 }

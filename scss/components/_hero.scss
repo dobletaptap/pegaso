@@ -88,12 +88,13 @@
     &__watermark-logo {
         max-width: 129px;
     }
-    // // SECTION Responsive
-    // @include iphone-8 {
-    //     font-size: 12px;
-    //     min-height: 70vh;
-    //     &__image {
-    //         width: 90%;
-    //     }
-    // }
+    
+    // SECTION Responsive
+    @include iphone-8 {
+        font-size: 12px;
+        min-height: 70vh;
+        &__image {
+            width: 90%;
+        }
+    }
 }
