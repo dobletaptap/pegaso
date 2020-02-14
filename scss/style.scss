@@ -2,6 +2,12 @@ $primary: #20201F;
 $accent: #4684B7;
 $white: #FBFBFB;
 
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background: $primary;
+    color: $white;
 }
