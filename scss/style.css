@@ -464,4 +464,34 @@ textarea {
 .c-air__title span {
   font-size: .46em;
 }
+
+.c-imagefeat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 650px;
+}
+
+.c-imagefeat__image {
+  width: 45%;
+}
+
+.c-imagefeat__text-container {
+  width: 45%;
+}
+
+.c-imagefeat__title {
+  font-size: 2em;
+}
+
+.c-imagefeat__text {
+  font-weight: 900;
+  color: rgba(251, 251, 251, 0.3);
+}
 /*# sourceMappingURL=style.css.map */
