@@ -19,16 +19,16 @@
         }
     }
 
-    // @include iphone-8 {
-    //     flex-direction: column;
-    //     padding: 15px 0;
-    //     &__image {
-    //         width: 150px;
-    //     }
-    //     &__link {
-    //         display: block;
-    //         text-align: center;
-    //         margin: 10px 0;
-    //     }
-    // }
+    @include iphone-8 {
+        flex-direction: column;
+        padding: 15px 0;
+        &__image {
+            width: 150px;
+        }
+        &__link {
+            display: block;
+            text-align: center;
+            margin: 10px 0;
+        }
+    }
 }
