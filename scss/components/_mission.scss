@@ -19,15 +19,15 @@
         font-weight: 300;
     }
 
-    // // SECTION responsive
+    // SECTION responsive
 
-    // @include iphone-8 {
-    //     flex-direction: column;
-    //     align-items: center;
+    @include iphone-8 {
+        flex-direction: column;
+        align-items: center;
 
-    //     &__side {
-    //         width: 98%;
-    //         text-align: center;
-    //     }
-    // }
+        &__side {
+            width: 98%;
+            text-align: center;
+        }
+    }
 }
