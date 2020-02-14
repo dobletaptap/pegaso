@@ -575,6 +575,7 @@ textarea {
 .c-work {
   background: #D4D5DA;
   font-weight: 900;
+  padding: 28px;
 }
 
 .c-work__content {
@@ -584,21 +585,23 @@ textarea {
 
 .c-work__title {
   font-size: 2em;
-  text-align: center;
+  margin: 0;
+}
+
+.c-work__description {
+  max-width: 90%;
 }
 
 .c-work__sides-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .c-work__side {
-  width: 49%;
-  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -608,11 +611,26 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.c-work__side--small {
+  width: 31%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.c-work__side--big {
+  width: 55%;
 }
 
 .c-gallery {
   width: 80%;
-  height: 80%;
+  height: 90%;
   position: relative;
   z-index: 1;
 }
@@ -627,6 +645,7 @@ textarea {
 }
 
 .c-gallery__button {
+  color: #FBFBFB;
   position: absolute;
   z-index: 1;
   top: 45%;

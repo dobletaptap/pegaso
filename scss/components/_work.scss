@@ -1,6 +1,7 @@
 .c-work {
     background: #D4D5DA;
     font-weight: 900;
+    padding: 28px;
 
     &__content {
         background: #E8E8E8;
@@ -9,20 +10,32 @@
 
     &__title {
         font-size: 2em;
-        text-align: center;
+        margin: 0;
+    }
+
+    &__description {
+        max-width: 90%;
     }
 
     &__sides-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     &__side {
-        width: 49%;
-        height: 500px;
+        // height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        &--small {
+            width: 31%;
+            align-items: flex-start;
+        }
+
+        &--big {
+            width: 55%;
+        }
     }
 
     // // SECTION responsive
