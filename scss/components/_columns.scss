@@ -31,16 +31,16 @@
     &__item {
         font-weight: 700;
     }
-    // @include iphone-8 {
-    //     grid-template-columns: 1fr 1fr;
+    @include iphone-8 {
+        grid-template-columns: 1fr 1fr;
 
-    //     &--three {
-    //         grid-template-columns: 1fr;
-    //         gap: 15px;
-    //     }
+        &--three {
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
 
-    //     &__element-title {
-    //         margin: 0;
-    //     }
-    // }
+        &__element-title {
+            margin: 0;
+        }
+    }
 }

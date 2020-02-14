@@ -696,6 +696,21 @@ textarea {
   font-weight: 700;
 }
 
+@media screen and (max-width: 540px) {
+  .c-columns {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .c-columns--three {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .c-columns__element-title {
+    margin: 0;
+  }
+}
+
 .c-work {
   background: #D4D5DA;
   font-weight: 900;
