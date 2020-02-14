@@ -289,6 +289,23 @@ textarea {
   color: #FBFBFB;
   border: none;
   padding: 7px 14px;
+  border-bottom: 3px solid #2a4f6d;
+  -webkit-transition: border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transition: border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, border 0s ease-out;
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  outline: none;
+}
+
+.c-header__button:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.c-header__button:active {
+  border-width: 2px;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 
 .c-header__burger {
