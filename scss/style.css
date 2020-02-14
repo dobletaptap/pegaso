@@ -689,4 +689,30 @@ textarea {
 .c-gallery__arrow {
   margin: 0;
 }
+
+.c-mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 30px 0;
+  margin: 20px 0;
+}
+
+.c-mission__side {
+  width: 26%;
+  text-align: center;
+}
+
+.c-mission__title {
+  font-size: 2em;
+  margin: 0;
+  font-weight: 700;
+}
+
+.c-mission__description {
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
