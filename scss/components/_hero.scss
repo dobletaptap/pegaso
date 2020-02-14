@@ -1,0 +1,78 @@
+.c-hero {
+    background: url('../img/background.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        width: 400px;
+    }
+
+    &__title {
+        font-size: 2em;
+        text-align: center;
+    }
+    &__text {
+        max-width: 960px;
+        text-align: center;
+        font-size: 1em;
+        font-weight: 300;
+        max-width: 50%;
+        line-height: 20px;
+        color: rgba($white, .3);
+    }
+
+    &__form {
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+        width: 42%;
+        justify-content: center;
+    }
+
+    &__input {
+        background: rgba($gray, .25);
+        border: none;
+        padding: 16px;
+        outline: none;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .6s;
+
+        &::placeholder {
+            color: rgba($white, .3);
+            font-weight: 700;
+        }
+
+        &:focus {
+            background: lighten($gray, 11%);
+        }
+        
+        &:focus::placeholder {
+            color: $primary;
+        }
+    }
+
+    &__button {
+        background: $accent;
+        padding: 16px;
+        border: none;
+        color: white;
+        outline: none;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+        font-weight: 700;
+        
+        &:hover {
+            background: darken($accent, 10%);
+        }
+    }
+    // // SECTION Responsive
+    // @include iphone-8 {
+    //     font-size: 12px;
+    //     min-height: 70vh;
+    //     &__image {
+    //         width: 90%;
+    //     }
+    // }
+}

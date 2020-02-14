@@ -1,6 +1,7 @@
 $primary: #20201F;
 $accent: #4684B7;
 $white: #FBFBFB;
+$gray: #c4c4c4;
 
 * {
     box-sizing: border-box;
@@ -19,3 +20,4 @@ body {
 
 // * SECTION COMPONENTS
 @import './components/header';
+@import './components/hero';

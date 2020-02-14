@@ -291,4 +291,118 @@ textarea {
   opacity: 1;
   border: 1px solid #FBFBFB;
 }
+
+.c-hero {
+  background: url("../img/background.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-hero__image {
+  width: 400px;
+}
+
+.c-hero__title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.c-hero__text {
+  max-width: 960px;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  max-width: 50%;
+  line-height: 20px;
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.c-hero__form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 2fr;
+      grid-template-columns: 5fr 2fr;
+  width: 42%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.c-hero__input {
+  background: rgba(196, 196, 196, 0.25);
+  border: none;
+  padding: 16px;
+  outline: none;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.6s;
+}
+
+.c-hero__input::-webkit-input-placeholder {
+  color: rgba(251, 251, 251, 0.3);
+  font-weight: 700;
+}
+
+.c-hero__input:-ms-input-placeholder {
+  color: rgba(251, 251, 251, 0.3);
+  font-weight: 700;
+}
+
+.c-hero__input::-ms-input-placeholder {
+  color: rgba(251, 251, 251, 0.3);
+  font-weight: 700;
+}
+
+.c-hero__input::placeholder {
+  color: rgba(251, 251, 251, 0.3);
+  font-weight: 700;
+}
+
+.c-hero__input:focus {
+  background: #e0e0e0;
+}
+
+.c-hero__input:focus::-webkit-input-placeholder {
+  color: #20201F;
+}
+
+.c-hero__input:focus:-ms-input-placeholder {
+  color: #20201F;
+}
+
+.c-hero__input:focus::-ms-input-placeholder {
+  color: #20201F;
+}
+
+.c-hero__input:focus::placeholder {
+  color: #20201F;
+}
+
+.c-hero__button {
+  background: #4684B7;
+  padding: 16px;
+  border: none;
+  color: white;
+  outline: none;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+  font-weight: 700;
+}
+
+.c-hero__button:hover {
+  background: #386992;
+}
 /*# sourceMappingURL=style.css.map */
