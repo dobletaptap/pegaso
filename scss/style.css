@@ -767,6 +767,32 @@ textarea {
   width: 55%;
 }
 
+@media screen and (max-width: 540px) {
+  .c-work {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  .c-work__sides-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .c-work__side {
+    width: 98%;
+    height: 280px;
+    margin: 10px 0;
+  }
+  .c-work__description {
+    max-width: 90%;
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
 .c-gallery {
   width: 80%;
   height: 90%;

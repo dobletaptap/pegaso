@@ -38,25 +38,25 @@
         }
     }
 
-    // // SECTION responsive
-    // @include iphone-8 {
-    //     font-size: 12px;
-    //     padding: 20px 0;
-    //     &__sides-container {
-    //         flex-direction: column;
-    //         align-items: center;
-    //     }
+    // SECTION responsive
+    @include iphone-8 {
+        font-size: 12px;
+        padding: 20px 0;
+        &__sides-container {
+            flex-direction: column;
+            align-items: center;
+        }
 
-    //     &__side {
-    //         width: 98%;
-    //         height: 280px;
-    //         margin: 10px 0;
-    //     }
+        &__side {
+            width: 98%;
+            height: 280px;
+            margin: 10px 0;
+        }
         
-    //     &__description {
-    //         max-width: 90%;
-    //         font-size: 1.5em;
-    //         text-align: center;
-    //     }
-    // }
+        &__description {
+            max-width: 90%;
+            font-size: 1.5em;
+            text-align: center;
+        }
+    }
 }
