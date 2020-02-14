@@ -15,6 +15,31 @@ body {
     margin: 0;
 }
 
+// * SECTION Responsive Design
+@mixin ipad {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin iphone-8 {
+    @media screen and (max-width: 540px) {
+        @content;
+    }
+}
+
+@mixin iphone-x {
+    @media screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin iphone-5 {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
+
 // * SECTION UTILITIES
 @import './utils/reset';
 @import './utils/wrapper';
