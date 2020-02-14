@@ -506,6 +506,34 @@ textarea {
   margin-bottom: 0;
 }
 
+.c-air__slogan {
+  color: #20201F;
+  max-width: 30%;
+  position: absolute;
+  bottom: 47px;
+  right: 47px;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.c-air__slogan-title {
+  font-size: 2em;
+}
+
+.c-air__slogan-text {
+  font-weight: 900;
+  width: 90%;
+}
+
 .c-imagefeat {
   display: -webkit-box;
   display: -ms-flexbox;

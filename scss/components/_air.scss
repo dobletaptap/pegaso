@@ -37,4 +37,25 @@
         color: rgba($white, .3);
         margin-bottom: 0;
     }
+
+    &__slogan {
+        color: $primary;
+        max-width: 30%;
+        position: absolute;
+        bottom: 47px;
+        right: 47px;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    &__slogan-title {
+        font-size: 2em;
+    }
+
+    &__slogan-text {
+        font-weight: 900;
+        width: 90%;
+    }
 }
