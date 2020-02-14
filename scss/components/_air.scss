@@ -58,4 +58,8 @@
         font-weight: 900;
         width: 90%;
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+    }
 }
