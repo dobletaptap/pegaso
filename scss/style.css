@@ -7,6 +7,8 @@
 body {
   background: #20201F;
   color: #FBFBFB;
+  padding: 0;
+  margin: 0;
 }
 
 /**
@@ -188,7 +190,15 @@ textarea {
 
 .u-wrapper {
   max-width: 1440px;
-  border: 1px solid white;
+  margin: 0 auto;
+}
+
+.u-wrapper--positioned {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 @font-face {
@@ -226,7 +236,6 @@ textarea {
 }
 
 .c-header {
-  border: 1px solid yellow;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -433,5 +442,26 @@ textarea {
 
 .c-hero__watermark-logo {
   max-width: 129px;
+}
+
+.c-air {
+  position: relative;
+}
+
+.c-air__image {
+  width: 100%;
+}
+
+.c-air__title {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 22px;
+}
+
+.c-air__title span {
+  font-size: .46em;
 }
 /*# sourceMappingURL=style.css.map */
