@@ -67,6 +67,27 @@
             background: darken($accent, 10%);
         }
     }
+
+    &__watermark-container {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__watermark {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__watermark-text {
+        font-weight: 900;
+        color: rgba($white, .3);
+    }
+
+    &__watermark-logo {
+        max-width: 129px;
+    }
     // // SECTION Responsive
     // @include iphone-8 {
     //     font-size: 12px;

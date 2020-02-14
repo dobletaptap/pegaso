@@ -405,4 +405,33 @@ textarea {
 .c-hero__button:hover {
   background: #386992;
 }
+
+.c-hero__watermark-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.c-hero__watermark {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-hero__watermark-text {
+  font-weight: 900;
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.c-hero__watermark-logo {
+  max-width: 129px;
+}
 /*# sourceMappingURL=style.css.map */
