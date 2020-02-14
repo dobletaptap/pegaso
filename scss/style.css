@@ -494,4 +494,40 @@ textarea {
   font-weight: 900;
   color: rgba(251, 251, 251, 0.3);
 }
+
+.c-columns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.c-columns--three {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.c-columns__element-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.c-columns__element-text {
+  color: rgba(251, 251, 251, 0.3);
+  font-weight: 900;
+}
+
+.c-columns__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.c-columns__item {
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
