@@ -1,0 +1,49 @@
+.c-work {
+    background: #D4D5DA;
+    font-weight: 900;
+
+    &__content {
+        background: #E8E8E8;
+        color: $primary;
+    }
+
+    &__title {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    &__sides-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__side {
+        width: 49%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // // SECTION responsive
+    // @include iphone-8 {
+    //     font-size: 12px;
+    //     padding: 20px 0;
+    //     &__sides-container {
+    //         flex-direction: column;
+    //         align-items: center;
+    //     }
+
+    //     &__side {
+    //         width: 98%;
+    //         height: 280px;
+    //         margin: 10px 0;
+    //     }
+        
+    //     &__description {
+    //         max-width: 90%;
+    //         font-size: 1.5em;
+    //         text-align: center;
+    //     }
+    // }
+}
