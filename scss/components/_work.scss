@@ -49,13 +49,18 @@
 
         &__side {
             width: 98%;
-            height: 280px;
-            margin: 10px 0;
+            height: 200px;
+            // margin: 10px 0;
         }
         
         &__description {
-            max-width: 90%;
+            max-width: 100%;
             font-size: 1.5em;
+            text-align: center;
+            margin: 40px 0 0 0;
+        }
+
+        &__title {
             text-align: center;
         }
     }

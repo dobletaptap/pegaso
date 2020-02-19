@@ -818,12 +818,15 @@ textarea {
   }
   .c-work__side {
     width: 98%;
-    height: 280px;
-    margin: 10px 0;
+    height: 200px;
   }
   .c-work__description {
-    max-width: 90%;
+    max-width: 100%;
     font-size: 1.5em;
+    text-align: center;
+    margin: 40px 0 0 0;
+  }
+  .c-work__title {
     text-align: center;
   }
 }
