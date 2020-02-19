@@ -6,8 +6,8 @@ const $burgerButton = document.querySelector('#burger')
 const $header = document.querySelector('.c-header')
 
 const data = {
-    images: ['work-1.jpg', 'work-2.jpg', 'work-3.jpg'],
-    descriptions: ['Nos especializamos en consultorías, tratamientos de aguas, manejo de residuos.', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fuga?', 'Repellendus labore quidem dolor inventore iste rem.']
+    images: ['work-1.png', 'work-2.jpg', 'work-3.jpg'],
+    descriptions: ['iCycle un espacio construido con una arquitectura moderna explorando materiales como el acero...', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fuga?', 'Repellendus labore quidem dolor inventore iste rem.']
 }
 
 const getCurrentImageIndex = () => {
