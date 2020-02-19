@@ -92,9 +92,22 @@
     // SECTION Responsive
     @include iphone-8 {
         font-size: 12px;
-        min-height: 70vh;
+        // min-height: 70vh;
         &__image {
-            width: 90%;
+            width: 60%;
+        }
+
+        &__text {
+            font-size: 1.3em;
+            max-width: 65%;
+        }
+
+        &__watermark-container {
+            justify-content: center;
+        }
+
+        &__watermark {
+            margin: 0;
         }
     }
 }

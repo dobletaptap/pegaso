@@ -522,10 +522,21 @@ textarea {
 @media screen and (max-width: 540px) {
   .c-hero {
     font-size: 12px;
-    min-height: 70vh;
   }
   .c-hero__image {
-    width: 90%;
+    width: 60%;
+  }
+  .c-hero__text {
+    font-size: 1.3em;
+    max-width: 65%;
+  }
+  .c-hero__watermark-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .c-hero__watermark {
+    margin: 0;
   }
 }
 
