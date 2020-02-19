@@ -61,9 +61,31 @@
 
     @include iphone-8 {
         font-size: 12px;
+        height: 200px;
+
+        &__image {
+            height: 100%;
+        }
 
         &__title {
             position: initial;
+        }
+
+        &__slogan {
+            max-width: 100%;
+            // color: yellow;
+            position: initial;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__slogan-title {
+            margin: 0;
+        }
+
+        &__slogan__text {
+            margin: 0;
         }
     }
 }
