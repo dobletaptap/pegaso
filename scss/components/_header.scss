@@ -82,6 +82,8 @@
         right: -50vw;
         font-size: 18px;
         transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+        flex-direction: column;
+        justify-content: center;
         &--active {
             right: 0;
         }
