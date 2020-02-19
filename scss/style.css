@@ -213,6 +213,23 @@ textarea {
           justify-content: center;
 }
 
+@media screen and (max-width: 540px) {
+  .u-wrapper {
+    padding: 0 15px;
+  }
+  .u-wrapper--positioned {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon.eot?26ic8u");
@@ -622,6 +639,9 @@ textarea {
   .c-air {
     font-size: 12px;
   }
+  .c-air__title {
+    position: initial;
+  }
 }
 
 .c-imagefeat {
@@ -660,11 +680,15 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
+    padding: 40px 0;
+  }
+  .c-imagefeat__title {
+    margin-bottom: 0;
   }
   .c-imagefeat__image, .c-imagefeat__text-container {
-    width: 100%;
+    width: 90%;
   }
   .c-imagefeat__text {
     width: 100%;
