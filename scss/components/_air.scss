@@ -63,8 +63,13 @@
         font-size: 12px;
         height: 200px;
 
+        &--big {
+            height: 400px;
+        }
         &__image {
             height: 100%;
+            object-fit: cover;
+            object-position: center;
         }
 
         &__title {
@@ -86,6 +91,12 @@
 
         &__slogan__text {
             margin: 0;
+        }
+
+        &__card {
+            width: 100%;
+            padding: 0 10px;
+            text-align: center;
         }
     }
 }

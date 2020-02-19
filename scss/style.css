@@ -640,8 +640,15 @@ textarea {
     font-size: 12px;
     height: 200px;
   }
+  .c-air--big {
+    height: 400px;
+  }
   .c-air__image {
     height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
   .c-air__title {
     position: initial;
@@ -662,6 +669,11 @@ textarea {
   }
   .c-air__slogan__text {
     margin: 0;
+  }
+  .c-air__card {
+    width: 100%;
+    padding: 0 10px;
+    text-align: center;
   }
 }
 
