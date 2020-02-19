@@ -654,7 +654,7 @@ textarea {
   .c-air__title {
     font-size: 3.5em;
     position: initial;
-    text-shadow: 0px 0px 2px #000000;
+    text-shadow: 0px 0px 5px #000000;
   }
   .c-air__slogan {
     max-width: 100%;
